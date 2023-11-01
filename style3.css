@@ -273,26 +273,26 @@ table, tr, th, td {
         flex-direction: row;
         justify-content: center;
     }
-.header-wraper {
+    .header-wraper {
     width: 100%;
     width: 960px;
         display: flex;
         justify-content: space-between;
-}
+    }
 
-.chet-item {
+    .chet-item {
     background-color: lightpink;
-}
+    }
 
 
-.form-wrapper {
+    .form-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    }
 
-form {
+    form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -300,23 +300,23 @@ form {
     border: 5px solid lightpink;
     border-radius: 20px;
 
-}
+    }
 
-label {
+    label {
     margin: 5px;
     width: 90%;
-}
+    }
 
-input {
+    input {
     width: inherit;
     margin: 2px 12px;
-}
+    }
 
-.radio-item {
+    .radio-item {
     width: 10%;
-}
+    }
 
-a {
+    a {
     list-style-type: none;
     font-size: 25px;
     padding: 10px 0;
@@ -325,12 +325,12 @@ a {
     width: 100%;
     text-align: center;
     transition: ease .15s;
-}
+    }
 
-a:hover {
+    a:hover {
     color:rosybrown;
+    }
 }
-
 /*@media all and (max-width: 700px){*/
 /*    body {*/
 /*        margin: 0;*/
